@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.game {
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#dino {
+    width: 50px;
+    height: 50px;
+    left: 50px;
+    background-image: url("https://o.remove.bg/downloads/ca66c48a-5eb1-4314-9e66-9173df39bc11/png-clipart-tyrannosaurus-dino-t-rex-t-rex-chrome-vr-jump-trex-runner-lava-jump-dinosaur-angle-text-thumbnail-removebg-preview.png");
+    background-size: 50px 50px;
+    position: relative;
+    top: 150px;
+}
+
+.jump {
+    animation: jump 0.6s ease-in;
+}
+
+#cactus {
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    top: 110px;
+    left: 580px;
+    background-image: url("https://o.remove.bg/downloads/52bb61f1-db8b-4cc3-9303-02df9a9eef46/images-removebg-preview.png");
+    background-size: 20px 40px;
+    animation: block 2.5s infinite linear;
+}
+
+@keyframes block {
+    0% {
+        left: 580px;
+    }
+
+    100% {
+        left: -10px;
+    }
+}
+
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+    50%{
+        top: 40px;
+    }
+    70%{
+        top: 100px;
+    }
+    100%{
+        top: 150px;
+    }
+}
