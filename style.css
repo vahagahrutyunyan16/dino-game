@@ -15,7 +15,7 @@ body {
     width: 50px;
     height: 50px;
     left: 50px;
-    background-image: url("https://o.remove.bg/downloads/ca66c48a-5eb1-4314-9e66-9173df39bc11/png-clipart-tyrannosaurus-dino-t-rex-t-rex-chrome-vr-jump-trex-runner-lava-jump-dinosaur-angle-text-thumbnail-removebg-preview.png");
+    background-image: url("dino.png");
     background-size: 50px 50px;
     position: relative;
     top: 150px;
@@ -32,7 +32,7 @@ body {
     position: relative;
     top: 110px;
     left: 580px;
-    background-image: url("https://o.remove.bg/downloads/52bb61f1-db8b-4cc3-9303-02df9a9eef46/images-removebg-preview.png");
+    background-image: url("cactus.png");
     background-size: 20px 40px;
     animation: block 2.5s infinite linear;
 }

@@ -16,7 +16,10 @@ let isAlive = setInterval(function(){
     let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
 
 
-if(cactusLeft < 95 && cactusLeft > 20 && dinoTop >= 140){
+
+
+if(cactusLeft < 95 && cactusLeft > 20 && dinoTop >= 140 && dinoTop < 200){
+
     alert("game over!!!!");
 }
 }, 20);
